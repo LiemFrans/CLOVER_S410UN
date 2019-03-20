@@ -1,0 +1,136 @@
+17:373  0:114  Found UEFI Acpi 2.0 RSDP at 7F588000
+17:373  0:000  Saving ACPI tables from RSDP 7F588000 to EFI\CLOVER\ACPI\origin ...
+17:373  0:000   7F588000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+17:373  0:000    (Xsdt: 7F5880C0, Rsdt: 7F588028)
+17:373  0:000    7F5880C0: 'XSDT', 'Notebook', Rev: 1, Len: 252
+17:373  0:000    7F588028: 'RSDT', 'Notebook', Rev: 1, Len: 144
+17:373  0:000    Tables in Xsdt: 27
+17:373  0:000    0. 7F5B5860: 'FACP', 'Notebook', Rev: 6, Len: 276
+17:373  0:000        (Dsdt: 7F588248, Facs: 7F9EBF00, XDsdt: 7F588248, XFacs: 0)
+17:373  0:000        7F588248: 'DSDT', 'Notebook', Rev: 2, Len: 185874
+17:373  0:000        7F9EBF00: 'FACS', Ver: 2, Len: 64
+17:373  0:000    1. 7F5B5978: 'APIC', 'Notebook', Rev: 3, Len: 188
+17:373  0:000    2. 7F5B5A38: 'FPDT', 'Notebook', Rev: 1, Len: 68
+17:373  0:000    3. 7F5B5A80: 'FIDT', 'Notebook', Rev: 1, Len: 156
+17:373  0:000    4. 7F5B5B20: 'ECDT', 'Notebook', Rev: 1, Len: 193
+17:373  0:000    5. 7F5B5BE8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+17:373  0:000    6. 7F5B5C28: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+17:373  0:000    7. 7F5B5F88: 'SSDT', 'DptfTabl', Rev: 2, Len: 24855
+17:373  0:000    8. 7F5BC0A0: 'SSDT', 'GddvDumm', Rev: 2, Len: 4240
+17:373  0:000    9. 7F5BD130: 'MSDM', 'Notebook', Rev: 3, Len: 85
+17:373  0:000    10. 7F5BD188: 'SSDT', 'SaSsdt', Rev: 2, Len: 12632
+17:373  0:000    11. 7F5C02E0: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+17:373  0:000    12. 7F5C0318: 'UEFI', 'Notebook', Rev: 1, Len: 66
+17:373  0:000    13. 7F5C0360: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+17:373  0:000    14. 7F5C1B10: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+17:373  0:000    15. 7F5C1BA8: 'SSDT', 'HdaDsp', Rev: 2, Len: 399
+17:373  0:000    16. 7F5C1D38: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+17:373  0:000    17. 7F5C1FD8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+17:373  0:000    18. 7F5C24F0: 'DBGP', '', Rev: 1, Len: 52
+17:373  0:000    19. 7F5C2528: 'DBG2', '', Rev: 0, Len: 84
+17:373  0:000    20. 7F5C2580: 'SSDT', 'SgPch', Rev: 2, Len: 2089
+17:373  0:000    21. 7F5C2DB0: 'SSDT', 'SgUlx', Rev: 2, Len: 923
+17:373  0:000    22. 7F5C3150: 'DMAR', 'EDK2', Rev: 1, Len: 312
+17:373  0:000    23. 7F5C3288: 'BGRT', 'Notebook', Rev: 1, Len: 56
+17:373  0:000    24. 7F5C32C0: 'TPM2', 'Notebook', Rev: 3, Len: 52
+17:373  0:000    25. 7F5C32F8: 'SSDT', 'OptTabl', Rev: 1, Len: 7906
+17:373  0:000    26. 7F5C51E0: 'WSMT', 'Notebook', Rev: 1, Len: 40
+17:373  0:000    Tables in Rsdt: 27
+17:373  0:000    0. 7F5881C0: 'FACP', 'Notebook', Rev: 2, Len: 132
+17:373  0:000        (Dsdt: 7F588248, Facs: 7F9EBEC0)
+17:373  0:000        7F588248: 'DSDT', 'Notebook', Rev: 2, Len: 185874
+17:373  0:000        7F9EBEC0: 'FACS', Ver: 0, Len: 64
+17:373  0:000    1. 7F5B5978: 'APIC', 'Notebook', Rev: 3, Len: 188
+17:373  0:000    2. 7F5B5A38: 'FPDT', 'Notebook', Rev: 1, Len: 68
+17:373  0:000    3. 7F5B5A80: 'FIDT', 'Notebook', Rev: 1, Len: 156
+17:373  0:000    4. 7F5B5B20: 'ECDT', 'Notebook', Rev: 1, Len: 193
+17:373  0:000    5. 7F5B5BE8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+17:373  0:000    6. 7F5B5C28: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+17:373  0:000    7. 7F5B5F88: 'SSDT', 'DptfTabl', Rev: 2, Len: 24855
+17:373  0:000    8. 7F5BC0A0: 'SSDT', 'GddvDumm', Rev: 2, Len: 4240
+17:373  0:000    9. 7F5BD130: 'MSDM', 'Notebook', Rev: 3, Len: 85
+17:373  0:000    10. 7F5BD188: 'SSDT', 'SaSsdt', Rev: 2, Len: 12632
+17:373  0:000    11. 7F5C02E0: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+17:373  0:000    12. 7F5C0318: 'UEFI', 'Notebook', Rev: 1, Len: 66
+17:373  0:000    13. 7F5C0360: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+17:373  0:000    14. 7F5C1B10: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+17:373  0:000    15. 7F5C1BA8: 'SSDT', 'HdaDsp', Rev: 2, Len: 399
+17:373  0:000    16. 7F5C1D38: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+17:373  0:000    17. 7F5C1FD8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+17:373  0:000    18. 7F5C24F0: 'DBGP', '', Rev: 1, Len: 52
+17:373  0:000    19. 7F5C2528: 'DBG2', '', Rev: 0, Len: 84
+17:373  0:000    20. 7F5C2580: 'SSDT', 'SgPch', Rev: 2, Len: 2089
+17:373  0:000    21. 7F5C2DB0: 'SSDT', 'SgUlx', Rev: 2, Len: 923
+17:373  0:000    22. 7F5C3150: 'DMAR', 'EDK2', Rev: 1, Len: 312
+17:373  0:000    23. 7F5C3288: 'BGRT', 'Notebook', Rev: 1, Len: 56
+17:373  0:000    24. 7F5C32C0: 'TPM2', 'Notebook', Rev: 3, Len: 52
+17:373  0:000    25. 7F5C32F8: 'SSDT', 'OptTabl', Rev: 1, Len: 7906
+17:373  0:000    26. 7F5C51E0: 'WSMT', 'Notebook', Rev: 1, Len: 40
+17:373  0:000  Found UEFI Acpi 1.0 RSDP at 7F588000
+17:373  0:000  Printing ACPI tables from RSDP 7F588000 ...
+17:373  0:000   7F588000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+17:373  0:000    (Xsdt: 7F5880C0, Rsdt: 7F588028)
+17:373  0:000    7F5880C0: 'XSDT', 'Notebook', Rev: 1, Len: 252
+17:373  0:000    7F588028: 'RSDT', 'Notebook', Rev: 1, Len: 144
+17:374  0:000    Tables in Xsdt: 27
+17:374  0:000    0. 7F5B5860: 'FACP', 'Notebook', Rev: 6, Len: 276
+17:374  0:000        (Dsdt: 7F588248, Facs: 7F9EBF00, XDsdt: 7F588248, XFacs: 0)
+17:374  0:000        7F588248: 'DSDT', 'Notebook', Rev: 2, Len: 185874
+17:374  0:000        7F9EBF00: 'FACS', Ver: 2, Len: 64
+17:374  0:000    1. 7F5B5978: 'APIC', 'Notebook', Rev: 3, Len: 188
+17:374  0:000    2. 7F5B5A38: 'FPDT', 'Notebook', Rev: 1, Len: 68
+17:374  0:000    3. 7F5B5A80: 'FIDT', 'Notebook', Rev: 1, Len: 156
+17:374  0:000    4. 7F5B5B20: 'ECDT', 'Notebook', Rev: 1, Len: 193
+17:374  0:000    5. 7F5B5BE8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+17:374  0:000    6. 7F5B5C28: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+17:374  0:000    7. 7F5B5F88: 'SSDT', 'DptfTabl', Rev: 2, Len: 24855
+17:374  0:000    8. 7F5BC0A0: 'SSDT', 'GddvDumm', Rev: 2, Len: 4240
+17:374  0:000    9. 7F5BD130: 'MSDM', 'Notebook', Rev: 3, Len: 85
+17:374  0:000    10. 7F5BD188: 'SSDT', 'SaSsdt', Rev: 2, Len: 12632
+17:374  0:000    11. 7F5C02E0: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+17:374  0:000    12. 7F5C0318: 'UEFI', 'Notebook', Rev: 1, Len: 66
+17:374  0:000    13. 7F5C0360: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+17:374  0:000    14. 7F5C1B10: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+17:374  0:000    15. 7F5C1BA8: 'SSDT', 'HdaDsp', Rev: 2, Len: 399
+17:374  0:000    16. 7F5C1D38: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+17:374  0:000    17. 7F5C1FD8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+17:374  0:000    18. 7F5C24F0: 'DBGP', '', Rev: 1, Len: 52
+17:374  0:000    19. 7F5C2528: 'DBG2', '', Rev: 0, Len: 84
+17:374  0:000    20. 7F5C2580: 'SSDT', 'SgPch', Rev: 2, Len: 2089
+17:374  0:000    21. 7F5C2DB0: 'SSDT', 'SgUlx', Rev: 2, Len: 923
+17:374  0:000    22. 7F5C3150: 'DMAR', 'EDK2', Rev: 1, Len: 312
+17:374  0:000    23. 7F5C3288: 'BGRT', 'Notebook', Rev: 1, Len: 56
+17:374  0:000    24. 7F5C32C0: 'TPM2', 'Notebook', Rev: 3, Len: 52
+17:374  0:000    25. 7F5C32F8: 'SSDT', 'OptTabl', Rev: 1, Len: 7906
+17:374  0:000    26. 7F5C51E0: 'WSMT', 'Notebook', Rev: 1, Len: 40
+17:374  0:000    Tables in Rsdt: 27
+17:374  0:000    0. 7F5881C0: 'FACP', 'Notebook', Rev: 2, Len: 132
+17:374  0:000        (Dsdt: 7F588248, Facs: 7F9EBEC0)
+17:374  0:000        7F588248: 'DSDT', 'Notebook', Rev: 2, Len: 185874
+17:374  0:000        7F9EBEC0: 'FACS', Ver: 0, Len: 64
+17:374  0:000    1. 7F5B5978: 'APIC', 'Notebook', Rev: 3, Len: 188
+17:374  0:000    2. 7F5B5A38: 'FPDT', 'Notebook', Rev: 1, Len: 68
+17:374  0:000    3. 7F5B5A80: 'FIDT', 'Notebook', Rev: 1, Len: 156
+17:374  0:000    4. 7F5B5B20: 'ECDT', 'Notebook', Rev: 1, Len: 193
+17:374  0:000    5. 7F5B5BE8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+17:374  0:000    6. 7F5B5C28: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+17:374  0:000    7. 7F5B5F88: 'SSDT', 'DptfTabl', Rev: 2, Len: 24855
+17:374  0:000    8. 7F5BC0A0: 'SSDT', 'GddvDumm', Rev: 2, Len: 4240
+17:374  0:000    9. 7F5BD130: 'MSDM', 'Notebook', Rev: 3, Len: 85
+17:374  0:000    10. 7F5BD188: 'SSDT', 'SaSsdt', Rev: 2, Len: 12632
+17:374  0:000    11. 7F5C02E0: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+17:374  0:000    12. 7F5C0318: 'UEFI', 'Notebook', Rev: 1, Len: 66
+17:374  0:000    13. 7F5C0360: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+17:374  0:000    14. 7F5C1B10: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+17:374  0:000    15. 7F5C1BA8: 'SSDT', 'HdaDsp', Rev: 2, Len: 399
+17:374  0:000    16. 7F5C1D38: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+17:374  0:000    17. 7F5C1FD8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+17:374  0:000    18. 7F5C24F0: 'DBGP', '', Rev: 1, Len: 52
+17:374  0:000    19. 7F5C2528: 'DBG2', '', Rev: 0, Len: 84
+17:374  0:000    20. 7F5C2580: 'SSDT', 'SgPch', Rev: 2, Len: 2089
+17:374  0:000    21. 7F5C2DB0: 'SSDT', 'SgUlx', Rev: 2, Len: 923
+17:374  0:000    22. 7F5C3150: 'DMAR', 'EDK2', Rev: 1, Len: 312
+17:374  0:000    23. 7F5C3288: 'BGRT', 'Notebook', Rev: 1, Len: 56
+17:374  0:000    24. 7F5C32C0: 'TPM2', 'Notebook', Rev: 3, Len: 52
+17:374  0:000    25. 7F5C32F8: 'SSDT', 'OptTabl', Rev: 1, Len: 7906
+17:374  0:000    26. 7F5C51E0: 'WSMT', 'Notebook', Rev: 1, Len: 40
